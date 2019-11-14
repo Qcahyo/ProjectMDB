@@ -38,6 +38,7 @@ public class DetailKantorActivity extends AppCompatActivity implements OnMapRead
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail_kantor);
+		getActionBar().hide();
 
 		imgFotoKantor = findViewById(R.id.imgFotoKantor);
 		tvDetailNamaKantor = findViewById(R.id.tvDetailNamaKantor);

@@ -21,6 +21,7 @@ public class DetailKaryawanActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail_karyawan);
+		getActionBar().hide();
 
 		tvDetailNama = findViewById(R.id.tvDetailNama);
 		tvDetailNik = findViewById(R.id.tvDetailNik);

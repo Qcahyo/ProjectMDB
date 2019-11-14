@@ -39,6 +39,8 @@ public class KantorActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kantor);
 
+		getActionBar().hide();
+
 		mKantor = new ArrayList<>();
 
 		mRecyclerView = findViewById(R.id.recyclerKantor);

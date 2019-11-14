@@ -41,6 +41,7 @@ public class KaryawanActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_karyawan);
 
+		getActionBar().hide();
 		//ArrayList<KaryawanConstruct> mKaryawan = getIntent().getParcelableArrayListExtra("arrayList");
 
 		mKaryawan = new ArrayList<>();

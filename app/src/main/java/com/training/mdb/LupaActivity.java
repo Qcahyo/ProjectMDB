@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 public class LupaActivity extends AppCompatActivity {
     String var_new,var_ok;

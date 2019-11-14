@@ -9,11 +9,11 @@
 	android:theme="@style/noActionBar"
 	tools:context=".SplashScreenActivity">
 
-	<ImageView
+	<pl.droidsonroids.gif.GifImageView
 		android:layout_width="600dp"
 		android:layout_height="200dp"
 		android:id="@+id/logo"
-		android:src="@drawable/mdb_logo"
+		android:src="@drawable/loading"
 		android:layout_centerVertical="true"
 		android:layout_alignParentLeft="true"
 		android:layout_alignParentStart="true" />

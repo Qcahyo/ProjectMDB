@@ -7,7 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
-	private int waktu_loading=3000;
+	private int waktu_loading=4000;
 
 	//4000=4 detik
 
