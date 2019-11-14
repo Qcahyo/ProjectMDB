@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_regular"
-        android:hint="Konfrimasi Password"
+        android:hint="Konfirmasi Password"
         android:maxLength="4"
         android:textColorHint="@color/background"
         android:inputType="numberPassword">
