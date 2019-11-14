@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 		lupa.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+				Intent intent = new Intent(LoginActivity.this, LupaActivity.class);
 				startActivity(intent);
 			}
 		});
