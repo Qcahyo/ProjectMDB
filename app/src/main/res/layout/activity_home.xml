@@ -144,6 +144,10 @@
 
 	</androidx.cardview.widget.CardView>
 
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
 	<androidx.cardview.widget.CardView
 		android:id="@+id/cvDaftarKantor"
 		android:layout_width="match_parent"
@@ -178,6 +182,7 @@
 		</RelativeLayout>
 
 	</androidx.cardview.widget.CardView>
+
 
 	<androidx.cardview.widget.CardView
 		android:id="@+id/cvDaftarKaryawan"
@@ -214,6 +219,8 @@
 		</RelativeLayout>
 
 	</androidx.cardview.widget.CardView>
+	</ScrollView>
+
 
 
 </RelativeLayout>
