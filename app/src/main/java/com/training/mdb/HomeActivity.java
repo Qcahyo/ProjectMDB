@@ -19,9 +19,7 @@ public class HomeActivity extends AppCompatActivity {
 
 	private ArrayList<KantorConstruct> mKantor;
 
-	CardView cvMeluncur;
-	CardView cvDaftarKantor;
-	CardView cvDaftarKaryawan;
+	CardView cvMeluncur,cvInfo,cvDaftarKantor,cvDaftarKaryawan;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +28,19 @@ public class HomeActivity extends AppCompatActivity {
 
 		mKantor = new ArrayList<>();
 
+		cvInfo = findViewById(R.id.cvInfo);
 		cvMeluncur = findViewById(R.id.cvMeluncur);
 		cvDaftarKantor = findViewById(R.id.cvDaftarKantor);
 		cvDaftarKaryawan = findViewById(R.id.cvDaftarKaryawan);
+
+		cvInfo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+
+
+			}
+		});
 
 		cvMeluncur.setOnClickListener(new View.OnClickListener() {
 			@Override
