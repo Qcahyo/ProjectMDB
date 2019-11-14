@@ -21,6 +21,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyD6zWFnAWprqG64jcRRNgqc95d9vxukt68"/>
 
+        <activity android:name=".LupaActivity"></activity>
         <activity android:name=".AboutActivity"></activity>
         <activity android:name=".DetailKantorActivity" />
         <activity android:name=".KantorActivity" />
