@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Day1</string>
+    <string name="Login_Karyawan">Login Karyawan</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email</string>
+    <string name="BtnLogin">Login</string>
+    <string name="apiKey">AIzaSyD6zWFnAWprqG64jcRRNgqc95d9vxukt68</string>
+</resources>
